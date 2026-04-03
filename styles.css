@@ -160,7 +160,7 @@ body {
 .hero-media {
   margin: 0;
   justify-self: end;
-  width: min(360px, 34vw);
+  width: min(255px, 24vw);
   aspect-ratio: 3 / 4;
   border-radius: 20px;
   overflow: hidden;
@@ -255,12 +255,20 @@ h1 {
   padding-top: 3rem;
 }
 
+.diagram-section .section-title {
+  max-width: 760px;
+  margin-left: auto;
+  text-align: left;
+}
+
 .diagram-wrap {
   background: linear-gradient(140deg, #fff, #f7f1e9);
   border: 1px solid var(--border);
   border-radius: 24px;
   padding: 1rem;
   box-shadow: var(--shadow);
+  max-width: 760px;
+  margin-left: auto;
 }
 
 .architect-diagram {
@@ -379,7 +387,7 @@ small {
 
   .hero-media {
     justify-self: start;
-    width: min(320px, 84vw);
+    width: min(230px, 62vw);
   }
 
   .hero-shape {
@@ -395,6 +403,8 @@ small {
 
   .diagram-wrap {
     padding: 0.5rem;
+    max-width: 100%;
+    margin-left: 0;
   }
 
   .menu-toggle {
@@ -443,7 +453,7 @@ small {
   }
 
   .hero-media {
-    width: min(280px, 88vw);
+    width: min(220px, 78vw);
   }
 
   .hero-shape {
@@ -455,5 +465,10 @@ small {
 
   .diagram-section {
     padding-top: 2.2rem;
+  }
+
+  .diagram-section .section-title {
+    max-width: 100%;
+    margin-left: 0;
   }
 }
