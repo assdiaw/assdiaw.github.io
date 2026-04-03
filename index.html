@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assane DIAW | Génie Civil</title>
+    <meta
+      name="description"
+      content="Page personnelle d'Assane DIAW, métreur-projeteur en bâtiment."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Playfair+Display:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="accueil">
+      <nav class="nav container">
+        <a href="#accueil" class="brand">A. DIAW</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="menu" id="menu">
+          <li><a href="#profil">Profil</a></li>
+          <li><a href="#formation">Formation</a></li>
+          <li><a href="#experience">Expérience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content container">
+        <p class="eyebrow reveal">Architecture & Génie Civil</p>
+        <h1 class="reveal">
+          Concevoir des espaces bâtis fiables, élégants et durables.
+        </h1>
+        <p class="intro reveal">
+          Assane DIAW, métreur-projeteur en bâtiment, avec une solide expérience
+          en DAO, en études techniques et en suivi de projets d'infrastructure.
+        </p>
+        <a href="#contact" class="btn reveal">Discuter d'un projet</a>
+      </div>
+      <div class="hero-shape"></div>
+    </header>
+
+    <main>
+      <section class="section container reveal" id="profil">
+        <div class="card profile-card">
+          <h2>Profil</h2>
+          <p>
+            Professionnel du bâtiment, spécialisé en métré et projection, je
+            combine expertise technique et vision architecturale pour transformer
+            une idée en solution constructive réaliste.
+          </p>
+          <div class="meta-grid">
+            <div><span>Nom</span><strong>DIAW Assane</strong></div>
+            <div><span>Nationalité</span><strong>Sénégalaise</strong></div>
+            <div><span>Naissance</span><strong>25 janvier 1971, Mbour</strong></div>
+            <div><span>Spécialité</span><strong>Métreur - Projeteur Bâtiment</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="formation">
+        <h2 class="section-title reveal">Formation</h2>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="year">2021</span>
+            <p>Licence Professionnelle, Génie Civil - IPP Dakar</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="year">2004</span>
+            <p>DST Génie Civil - ESP Dakar</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="year">1998</span>
+            <p>BTI Ouvrage Métallique - Lycée Maurice Delafosse</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="year">2010-2014</span>
+            <p>Formations Robot Structure, Revit Architecture, Covadis et AutoMAP</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="experience">
+        <h2 class="section-title reveal">Expérience Professionnelle</h2>
+        <div class="experience-grid">
+          <article class="card reveal">
+            <h3>ASECNA</h3>
+            <p class="role">Projeteur puis Métreur-Projeteur Génie Civil</p>
+            <p>
+              Participation aux études et projets techniques avec production de
+              plans DAO (Autocad / Revit) et chiffrage de travaux.
+            </p>
+          </article>
+          <article class="card reveal">
+            <h3>Structures d'Ingénierie (Dakar)</h3>
+            <p class="role">Dessinateur DAO</p>
+            <p>
+              Interventions pour ALPHACAD, CADEM Technologie, SAGEM et SETTI sur
+              des projets de bâtiment et télécom.
+            </p>
+          </article>
+          <article class="card reveal">
+            <h3>Carnaudmetalbox</h3>
+            <p class="role">Stage technique</p>
+            <p>
+              Première immersion en environnement industriel et mise en pratique
+              des fondamentaux de génie civil.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="split">
+          <article class="card reveal">
+            <h2>Compétences</h2>
+            <ul class="list">
+              <li>Métré et quantitatif bâtiment</li>
+              <li>Conception et plans techniques</li>
+              <li>DAO: Autocad, Revit Architecture</li>
+              <li>Outils: Robot Structure, Covadis, AutoMAP</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h2>Langues</h2>
+            <ul class="list">
+              <li>Français: lu, écrit, parlé (très bien)</li>
+              <li>Anglais: lu, écrit, parlé (passable)</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container footer-inner">
+        <h2 class="reveal">Construisons votre prochain projet</h2>
+        <p class="reveal">
+          Disponible pour des missions d'études, de conception technique et de
+          projection en bâtiment.
+        </p>
+        <a class="btn reveal" href="mailto:contact@exemple.com">Me contacter</a>
+        <small>© <span id="year"></span> Assane DIAW</small>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
