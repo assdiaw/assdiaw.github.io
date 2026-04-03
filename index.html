@@ -50,6 +50,67 @@
     </header>
 
     <main>
+      <section class="section container diagram-section reveal" id="diagramme">
+        <h2 class="section-title">Diagramme Technique</h2>
+        <div class="diagram-wrap">
+          <svg
+            class="architect-diagram"
+            id="architectDiagram"
+            viewBox="0 0 980 430"
+            role="img"
+            aria-label="Diagramme animé de bâtiment et instruments de mesure"
+          >
+            <defs>
+              <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#c4a385" />
+                <stop offset="100%" stop-color="#9a7759" />
+              </linearGradient>
+            </defs>
+
+            <g stroke="url(#lineGrad)" stroke-width="3" fill="none" stroke-linecap="round">
+              <path class="diag-line" d="M70 350 H520 V180 H690 V350 H860" />
+              <path class="diag-line" d="M130 350 V250 H260 V350" />
+              <path class="diag-line" d="M320 350 V220 H460 V350" />
+              <path class="diag-line" d="M560 350 V245 H655 V350" />
+              <path class="diag-line" d="M710 350 V260 H825 V350" />
+              <path class="diag-line" d="M110 250 L195 190 L280 250" />
+              <path class="diag-line" d="M300 220 L390 150 L480 220" />
+              <path class="diag-line" d="M540 245 L608 205 L675 245" />
+              <path class="diag-line" d="M695 260 L768 215 L840 260" />
+            </g>
+
+            <g id="rulerGroup" transform="translate(70 58)">
+              <rect x="0" y="0" width="470" height="52" rx="12" fill="#f2e9de" stroke="#b79372" stroke-width="2" />
+              <g stroke="#b79372" stroke-width="2">
+                <line x1="24" y1="10" x2="24" y2="42" />
+                <line x1="56" y1="18" x2="56" y2="42" />
+                <line x1="88" y1="10" x2="88" y2="42" />
+                <line x1="120" y1="18" x2="120" y2="42" />
+                <line x1="152" y1="10" x2="152" y2="42" />
+                <line x1="184" y1="18" x2="184" y2="42" />
+                <line x1="216" y1="10" x2="216" y2="42" />
+                <line x1="248" y1="18" x2="248" y2="42" />
+                <line x1="280" y1="10" x2="280" y2="42" />
+                <line x1="312" y1="18" x2="312" y2="42" />
+                <line x1="344" y1="10" x2="344" y2="42" />
+                <line x1="376" y1="18" x2="376" y2="42" />
+                <line x1="408" y1="10" x2="408" y2="42" />
+                <line x1="440" y1="18" x2="440" y2="42" />
+              </g>
+              <circle id="measureCursor" cx="24" cy="26" r="8" fill="#9f7e61" />
+            </g>
+
+            <g id="compassGroup" transform="translate(740 60)">
+              <circle cx="0" cy="0" r="16" fill="#f2e9de" stroke="#a88463" stroke-width="2" />
+              <line id="compassLeft" x1="0" y1="10" x2="-36" y2="126" stroke="#9f7e61" stroke-width="5" />
+              <line id="compassRight" x1="0" y1="10" x2="44" y2="130" stroke="#9f7e61" stroke-width="5" />
+              <circle cx="-36" cy="126" r="6" fill="#9f7e61" />
+              <circle cx="44" cy="130" r="6" fill="#9f7e61" />
+            </g>
+          </svg>
+        </div>
+      </section>
+
       <section class="section container reveal" id="profil">
         <div class="card profile-card">
           <h2>Profil</h2>

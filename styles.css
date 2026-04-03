@@ -233,6 +233,28 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
+.diagram-section {
+  padding-top: 3rem;
+}
+
+.diagram-wrap {
+  background: linear-gradient(140deg, #fff, #f7f1e9);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.architect-diagram {
+  width: 100%;
+  display: block;
+}
+
+.diag-line {
+  stroke-dasharray: 900;
+  stroke-dashoffset: 900;
+}
+
 .card {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -344,6 +366,10 @@ small {
     grid-template-columns: 1fr;
   }
 
+  .diagram-wrap {
+    padding: 0.5rem;
+  }
+
   .menu-toggle {
     display: block;
   }
@@ -394,5 +420,9 @@ small {
     right: -4.5rem;
     top: 6.5rem;
     opacity: 0.45;
+  }
+
+  .diagram-section {
+    padding-top: 2.2rem;
   }
 }
