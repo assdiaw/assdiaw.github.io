@@ -252,7 +252,8 @@ h1 {
 }
 
 .diagram-section {
-  padding-top: 3rem;
+  padding-top: 1.4rem;
+  margin-top: -1rem;
 }
 
 .diagram-section .section-title {
@@ -464,7 +465,8 @@ small {
   }
 
   .diagram-section {
-    padding-top: 2.2rem;
+    padding-top: 1rem;
+    margin-top: -0.4rem;
   }
 
   .diagram-section .section-title {
