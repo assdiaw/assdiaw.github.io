@@ -61,38 +61,16 @@ body {
   overflow: hidden;
   opacity: 0.62;
   z-index: 0;
-  animation: morph 12s ease-in-out infinite alternate;
   box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.25);
-  transition: translate 0.25s ease-out;
 }
 
 .hero-shape-photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 26%;
+  object-position: center 14%;
   mix-blend-mode: multiply;
-  opacity: 0.92;
-  transform: scale(1.04);
-  animation: photoZoom 9s ease-in-out infinite alternate;
-}
-
-@keyframes morph {
-  from {
-    transform: translateY(0) rotate(0deg);
-  }
-  to {
-    transform: translateY(16px) rotate(-6deg);
-  }
-}
-
-@keyframes photoZoom {
-  from {
-    transform: scale(1.03) translateX(0);
-  }
-  to {
-    transform: scale(1.1) translateX(-6px);
-  }
+  opacity: 0.95;
 }
 
 @keyframes pulseOrb {
